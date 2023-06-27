@@ -1,19 +1,12 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import boy from '../../assets/boyimg.png';
-import background from "../../assets/front2.png"
 
 const Navbar = () => {
-  const divStyle = {
-    backgroundImage: `url(${background})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    minHeight: '100px',
-  };
+
   return (
-    <div style={divStyle}>
-      <div className="uppercase navbar fixed z-20 text-grayLight sm:text-black font-sans font-sm" >
+    <div className="h-32 bg-blackdeep" >
+      <div className="uppercase navbar  fixed z-20 text-grayLight sm:text-black font-sans font-sm" >
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -47,7 +40,7 @@ const Navbar = () => {
               <img src={boy} alt="Avatar" />
             </div>
           </div>
-          <p className=" uppercase md:text-2xl font-bold text-primary hover:text-darkpink hover:translate-y-1">Arefin Shaon</p>
+          <p className=" uppercase md:text-2xl font-bold text-white hover:text-darkpink hover:translate-y-1">Arefin Shaon</p>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-grayLight font-bold">

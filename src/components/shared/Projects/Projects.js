@@ -3,18 +3,11 @@ import toys from "../../../assets/toys.png";
 import getaway from "../../../assets/summer.png";
 import chefs from "../../../assets/chefs.png";
 import { BiLinkExternal } from "react-icons/bi";
-import background from "../../../assets/front2.png";
 
 const Projects = () => {
-  const divStyle = {
-    backgroundImage: `url(${background})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    minHeight: "100vh",
-  };
+ 
   return (
-    <div style={divStyle} id="projects" className="text-grayLight grid justify-center align-center -mt-12 my-10 py-8 mb-20">
+    <div  id="projects" className="text-grayLight grid justify-center align-center -mt-12 my-10 py-8 mb-20">
       <div
         data-aos="fade-up"
         data-aos-easing="ease-out-cubic"

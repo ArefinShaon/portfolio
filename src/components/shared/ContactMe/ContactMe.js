@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import img from "../../../assets/front2.png";
 import { toast } from "react-hot-toast";
 import emailjs from "@emailjs/browser";
 
@@ -35,7 +34,6 @@ const ContactMe = () => {
       <div
         id="contactMe"
         className="hero text-white py-20 -mt-20"
-        style={{ backgroundImage: `url(${img})` }}
       >
         <div className="lg:flex-row-reverse">
           <div

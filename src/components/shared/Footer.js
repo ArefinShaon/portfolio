@@ -1,10 +1,9 @@
 import React from "react";
 import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
-import img from "../../assets/front2.png";
 
 const Footer = () => {
   return (
-    <div style={{ backgroundImage: `url(${img})` }}>
+    <div className="bg-blackdeep">
       <footer className="footer grid justify-between items-center h-40 -mt-28 p-4 px-10 text-grayLight">
         <div className=" font-bold">
           <p>Developed by Arefin Shaon</p>

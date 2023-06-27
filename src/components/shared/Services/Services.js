@@ -1,16 +1,9 @@
 import React from "react";
-import background from "../../../assets/front2.png";
 
 const Services = () => {
-  const divStyle = {
-    backgroundImage: `url(${background})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    minHeight: "100vh",
-  };
+ 
   return (
-    <div style={divStyle} className="text-grayLight -mt-12 py-12">
+    <div  className="text-grayLight -mt-12 py-12">
       <div
         id="services"
         data-aos="fade-up"
@@ -26,7 +19,7 @@ const Services = () => {
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
-          className="card lg:card-side bg-cyan-800 shadow-2xl shadow-gray-900 rounded-lg md:w-2/3 mx-auto"
+          className="card lg:card-side border border-darkpink shadow-2xl shadow-gray-900 rounded-lg md:w-2/3 mx-auto"
         >
           <figure className="rounded-lg">
             <img
@@ -54,7 +47,7 @@ const Services = () => {
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
-          className="card lg:card-side bg-cyan-800 shadow-2xl shadow-gray-900 rounded-lg md:w-2/3 mx-auto"
+          className="card lg:card-side border border-darkpink shadow-2xl shadow-gray-900 rounded-lg md:w-2/3 mx-auto"
         >
           <figure className="rounded-lg">
             <img
@@ -80,7 +73,7 @@ const Services = () => {
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
-          className="card lg:card-side bg-cyan-800 shadow-2xl shadow-gray-900 rounded-lg md:w-2/3 mx-auto"
+          className="card lg:card-side border border-darkpink shadow-2xl shadow-gray-900 rounded-lg md:w-2/3 mx-auto"
         >
           <figure className="rounded-lg">
             <img
