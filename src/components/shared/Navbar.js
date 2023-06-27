@@ -5,7 +5,7 @@ import boy from '../../assets/boyimg.png';
 const Navbar = () => {
 
   return (
-    <div className="h-32 bg-blackdeep" >
+    <div className="h-28 bg-blackdeep " >
       <div className="uppercase navbar  fixed z-20 text-grayLight sm:text-black font-sans font-sm" >
         <div className="navbar-start">
           <div className="dropdown">
@@ -40,7 +40,9 @@ const Navbar = () => {
               <img src={boy} alt="Avatar" />
             </div>
           </div>
-          <p className=" uppercase md:text-2xl font-bold text-white hover:text-darkpink hover:translate-y-1">Arefin Shaon</p>
+          <p className="uppercase text-xl font-bold text-white hover:text-darkpink hover:translate-y-1 ">
+            Arefin_Shaon</p>
+
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-grayLight font-bold">

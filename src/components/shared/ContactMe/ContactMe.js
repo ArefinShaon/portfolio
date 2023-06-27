@@ -60,25 +60,24 @@ const ContactMe = () => {
                     type="text"
                     placeholder="Your Name"
                     name="user_name"
-                    className="input input-ghost sm:max-w-full bg-transparent rounded-none border-gray-500 focus:bg-lightpink focus:text-white w-full"
-                  />
+                    className="input input-ghost sm:max-w-full bg-transparent rounded-none border-gray-500 focus:bg-lightpink focus:text-white w-full" required                  />
                   <input
                     type="text"
                     placeholder="Your Email"
                     name="user_email"
-                    className="input input-ghost bg-transparent w-full rounded-none border border-gray-500 focus:bg-lightpink focus:text-white"
+                    className="input input-ghost bg-transparent w-full rounded-none border border-gray-500 focus:bg-lightpink focus:text-white" required
                   />
                   <input
                     type="number"
                     placeholder="Your Phone"
                     name="user_phone"
-                    className="input input-ghost bg-transparent w-full rounded-none border-gray-500 focus:bg-lightpink focus:text-white"
+                    className="input input-ghost bg-transparent w-full rounded-none border-gray-500 focus:bg-lightpink focus:text-white" required
                   />
                 </div>
                 <textarea
                   name="message"
                   className="textarea rounded-none textarea-ghost bg-transparent focus:bg-lightpink focus:text-white border-gray-500 w-full h-40"
-                  placeholder="Your Message"
+                  placeholder="Your Message" required
                 ></textarea>
                 <div
                   className="grid justify-center"
@@ -89,7 +88,7 @@ const ContactMe = () => {
                   <input
                     className="btn btn-active rounded-none bg-darkpink text-white mt-8 px-10"
                     type="submit"
-                    value="Send Message"
+                    value="Send Message" 
                   />
                 </div>
               </form>

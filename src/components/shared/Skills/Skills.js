@@ -11,7 +11,7 @@ import Tools from "./Tools/Tools";
 const Skills = () => {
 
   return (
-    <div  className="grid justify-center -mt-12 py-8" id="skills">
+    <div  className="grid justify-center mt-12 py-8" id="skills">
       <h2
         data-aos="fade-up"
         data-aos-easing="ease-out-cubic"

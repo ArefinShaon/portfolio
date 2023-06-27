@@ -18,7 +18,7 @@ const Header = () => {
     <div>
       <div className="md:-mt-20">
         <div  className="hero text-grayLight rounded-lg">
-          <div className="flex flex-col lg:flex-row-reverse">
+          <div className="flex flex-col-reverse lg:flex-row-reverse">
             <img
               src={me}
               style={{ width: 480, height: 450 }}
