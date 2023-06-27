@@ -15,7 +15,7 @@ const Projects = () => {
         className="text-center pt-12 "
       >
         <h2 className="text-5xl font-bold">Projects</h2>
-        <p className="text-darkpink font-bold mt-2 text-lg">My Recent Works</p>
+        <p className="text-darkpink font-bold mt-6  mb-8 text-lg">My Recent Works</p>
       </div>
       <div
         data-aos="fade-up"
