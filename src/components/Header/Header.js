@@ -12,12 +12,10 @@ import resume from "../../assets/Arefin_Shaon MERN Stack Developer_Resume.pdf";
 import { TypeAnimation } from "react-type-animation";
 
 const Header = () => {
-
-
   return (
     <div>
       <div className="md:-mt-20">
-        <div  className="hero text-grayLight rounded-lg">
+        <div className="hero text-grayLight rounded-lg">
           <div className="flex flex-col-reverse lg:flex-row-reverse">
             <img
               src={me}
@@ -71,17 +69,17 @@ const Header = () => {
                 </a>
                 <div className=" py-2">
                   <p>Others Profiles:</p>
-                <div className="flex border-sm mr-5 mt-2  shadow-2xl sm:mb-5 lg:mb-0 text-darkpink rounded-none gap-4 text-2xl">
-                  <a href="https://www.linkedin.com/in/arefin-shaon/">
-                    <FaLinkedin />
-                  </a>
-                  <a href="https://github.com/ArefinShaon">
-                    <FaGithub />
-                  </a>
-                  <a href="https://web.facebook.com/Arefin.shawon.0">
-                    <FaFacebookSquare />
-                  </a>
-                </div>
+                  <div className="flex border-sm mr-5 mt-2  shadow-2xl sm:mb-5 lg:mb-0 text-darkpink rounded-none gap-4 text-2xl">
+                    <a href="https://www.linkedin.com/in/arefin-shaon/">
+                      <FaLinkedin />
+                    </a>
+                    <a href="https://github.com/ArefinShaon">
+                      <FaGithub />
+                    </a>
+                    <a href="https://web.facebook.com/Arefin.shawon.0">
+                      <FaFacebookSquare />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
